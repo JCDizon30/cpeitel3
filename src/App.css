@@ -1,0 +1,68 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 6em;
+
+}
+
+h1 {
+  background-color: #131313;
+  color: #ffff;
+  max-width: 600px;
+  padding: 20px 0 20px 0 ;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.CalcContainer {
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+  background-color: #131313;
+  border-radius: 15px;
+}
+
+.DispContainer {
+  padding: 1px 25px 15px 25px;
+  background-color:  #131313;
+  width: 300px;
+  margin-left: 28px;
+}
+
+.Display {
+  font-size: 30px;
+  text-align: right;
+  margin-top: 40px;
+  color: #ffff;
+}
+
+.ButtonsContainer button {
+  font-size: 30px;
+  padding: 20px 30px 20px 30px;
+  border-radius: 15px;
+  margin: 7px;
+  background-color: #131313;
+  color: white;
+  cursor: pointer;
+}
+
+.intro button{
+  font-size: 13px;
+  padding: 15px 4px 15px 4px;
+  margin: 3px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #ff7b00;
+  color: white;
+  cursor: pointer;
+}
+
+.intro button:hover{
+  background-color: #c05e01;
+}
+
+button:hover {
+  background-color: rgba(29, 29, 29, 0.979);
+}
+
